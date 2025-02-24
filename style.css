@@ -2,60 +2,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    height: 1000px;
     background-color: #fbffb1;
     background-image: url(img/par_1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 60%;
+    font-family: 'Doodle', cursive;
+    padding: 100px 320px;
     min-height: 100vh;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    font-family: 'doodle', cursive;
+    height: 1100px;
 }
 
-main h1{
-    padding-top: 100px;
-}
-
-#title{
+main h1, main h2 {
     text-align: center;
-    font-size: 30px;
+    margin: 10px 0;
 }
 
-#subtitle{
-    text-align: center;
-    font-size: 25px;
+#title {
+    font-size: 2rem;
+}
+
+#subtitle {
+    font-size: 1.5rem;
     color: rgb(59, 59, 59);
 }
 
-.pgf{
-    text-align: justify center;
+.pgf {
+    text-align: justify;
     padding-top: 30px;
-    margin-left: 26%;
-    margin-right: 26%;
-    font-size: 20px;
+    margin: 0 10%;
+    font-size: 1.1rem;
     color: rgb(0, 0, 0);
 }
 
-.pgf a{
+.pgf a {
     text-decoration: none;
     font-family: 'Gloria Hallelujah';
     color: red;
 }
 
-.pgf a:hover{
+.pgf a:hover {
     text-decoration: underline;
-    font-family: 'Gloria Hallelujah';
     color: rgb(253, 100, 100);
 }
 
-.pgf abbr{
+.pgf abbr {
     text-decoration: none;
     color: rgb(18, 54, 122);
+}
+
+@media (max-width: 1300px) {
+    body {
+        background-image: url(img/par_1.png);
+        background-position: center;
+        background-size: cover;
+        padding: 40px;
+    }
+
+    #title {
+        font-size: 1.8rem;
+    }
+
+    #subtitle {
+        font-size: 1.3rem;
+    }
+
+    .pgf {
+        font-size: 1rem;
+        margin: 0 5%;
+    }
 }
