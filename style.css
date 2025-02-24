@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Doodle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 1000px;
+    background-color: #fbffb1;
+    background-image: url(img/par_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    min-height: 100vh;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: 'doodle', cursive;
+}
+
+main h1{
+    padding-top: 100px;
+}
+
+#title{
+    text-align: center;
+    font-size: 30px;
+}
+
+#subtitle{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(59, 59, 59);
+}
+
+.pgf{
+    text-align: justify center;
+    padding-top: 30px;
+    margin-left: 26%;
+    margin-right: 26%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.pgf a{
+    text-decoration: none;
+    font-family: 'Gloria Hallelujah';
+    color: red;
+}
+
+.pgf a:hover{
+    text-decoration: underline;
+    font-family: 'Gloria Hallelujah';
+    color: rgb(253, 100, 100);
+}
+
+.pgf abbr{
+    text-decoration: none;
+    color: rgb(18, 54, 122);
+}
